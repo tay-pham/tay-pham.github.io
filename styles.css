@@ -1,14 +1,4 @@
-html {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    background-color:#white;
-}
-*,*:before,*:after{
-    -webkit-box-sizing:inherit;
-    -moz-box-sizing:inherit;
-    box-sizing:inherit;
-}
+
 #container {
     position: relative;
     margin:0 auto;
@@ -33,14 +23,6 @@ html {
 
 
 
-/**#container {
-    background-color:#eee;
-    padding:1em;
-}
-#container > *:nth-child(odd) {
-    background-color:#ddd;
-}
-**/
 
 header {
     grid-area:header;
